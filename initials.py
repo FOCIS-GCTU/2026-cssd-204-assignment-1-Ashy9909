@@ -13,21 +13,21 @@
 
 def main():
     # Print initials S, K, A (A as stand-in third initial) in stylized 12x10 block letters,
-    # each followed by a 4-asterisk period block, with 3-period columns on left and right.
+    # each followed by a 2-asterisk period block, with 3-period columns on left and right.
 
     print()
     print("...SKA")
     print()
-    print("....SSSSSSSSSS........KKK.....KKKK...........AAAA...........")
-    print("...SSS................KKK....KKK............AA..AA..........")
-    print("...SSS................KKK...KKK............AA....AA.........")
-    print("...SSSSSSSSSS.........KKK..KKK............AA......AA........")
-    print("...........SSS........KKKKKKK............AAAAAAAAAAAA.......")
-    print("...........SSS........KKK..KKK...........AA........AA.......")
-    print("...SSS.....SSS........KKK...KKK..........AA........AA.......")
-    print("....SSSSSSSSS.........KKK....KKK.........AA........AA.......")
-    print("...............****...KKK.....KKKK****...AA........AA****...")
-    print("...............****...............****...............****...")
+    print("....SSSSSSSSSS.........KKK.....KKKK............AAAA.........")
+    print("...SSSSSSSSSSSS........KKK....KKK.............AA..AA........")
+    print("...SSS.................KKK...KKK.............AA....AA.......")
+    print("...SSS.................KKK..KKK.............AA......AA......")
+    print("...SSSSSSSSSS..........KKKKKKK.............AAAAAAAAAAAA.....")
+    print("...........SSS.........KKK..KKK............AA........AA.....")
+    print("...........SSS.........KKK...KKK...........AA........AA.....")
+    print("...SSSSSSSSSSSS........KKK....KKK..........AA........AA.....")
+    print("....SSSSSSSSSS....**...KKK.....KKKK...**...AA........AA...**")
+    print("..................**..................**..................**")
     print()
 
 
